@@ -5,12 +5,13 @@
 #include <stdio.h>
 
 /**
- * main -main code
+ * main -function
  *
  * Description: print a random number
  *
- * Return : 0 on success
+ * Return : (0) on success
  */
+
 int main(void)
 {
 	int n;
@@ -31,3 +32,4 @@ int main(void)
 		printf("last digit of %d is %d and is less than 6 and not 0\n", n, 1);
 	}
 	return (0);
+}
