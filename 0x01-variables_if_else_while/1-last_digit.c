@@ -1,4 +1,4 @@
-/* library stdlib and time included */
+* library stdlib and time included */
 
 #include <stdlib.h>
 #include <time.h>
@@ -7,29 +7,30 @@
 /**
  * main -function
  *
- * Description: print a random number
+ * Description: prints a random number
  *
- * Return : (0) on success
+ * Return: returns (0) on success
  */
 
 int main(void)
 {
 	int n;
-	int 1;
+	int l;
 
 	srand(time(0));
-	n = rand() - RAND_MAX /2;
-	1 = n % 10;
+	n = rand() - RAND_MAX / 2;
+	l = n % 10;
 
-	if (1 > 5)
+	if (l > 5)
 	{
-		printf("last digit of %d is %d and is greater than 5\n", n, 1);
-	} else if (1 == 0)
+		printf("Last digit of %d is %d and is greater than 5\n", n, l);
+	} else if (l == 0)
 	{
-		printf("last digit of %d is %d and is 0\n", n, 1);
-	} else if (1 != 0 && 1 < 6)
+		printf("Last digit of %d is %d and is 0\n", n, l);
+	} else if (l != 0 && l < 6)
 	{
-		printf("last digit of %d is %d and is less than 6 and not 0\n", n, 1);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
 	}
+
 	return (0);
 }
