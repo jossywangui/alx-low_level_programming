@@ -16,15 +16,15 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		c = i;
-		putchar(c);
-	
+	c=i;
+	putchar(c);
 	}
 
 	putchar('\n');
 
 	return (0);
 }
+
 
 
 
