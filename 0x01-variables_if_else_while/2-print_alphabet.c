@@ -1,13 +1,13 @@
+
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
  * main -function
  *
- * Description: prints lower case alphabet
+ * Description: prints the alphabet lower case then upper case
  *
- * Return: 0 when success
+ * Return: returns (0) on success
  */
 
 int main(void)
@@ -17,9 +17,13 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		c = i
-		putchar(c)
+		if (i != 113 && i != 101)
+		{
+			c = i;
+			putchar(c);
+		}
 	}
+
 	putchar('\n');
 
 	return (0);
