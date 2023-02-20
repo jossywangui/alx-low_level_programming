@@ -1,4 +1,4 @@
-* library stdlib and time included */
+/*library stdlib and time included */
 
 #include <stdlib.h>
 #include <time.h>
