@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -17,11 +16,9 @@ int main(void)
 
 	for (i = 97; i < 123; i++)
 	{
-		if (i != 113 && i != 101)
-		{
-			c = i;
-			putchar(c);
-		}
+		c = i;
+		putchar(c);
+	
 	}
 
 	putchar('\n');
